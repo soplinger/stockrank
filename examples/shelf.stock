@@ -1,0 +1,14 @@
+# Stockrank example: a small hardware shelf
+# set lines apply to every item; each item line is one SKU with key=value fields.
+
+set service=95% holding=25% cut_a=80% cut_b=95% ordercost=12
+set days=365 watch=7 count_a=30 count_b=90 count_c=180
+
+item BOLT-M6-20   annual=4800 cost=0.35 sd=14  lead=10 onhand=260  onorder=0   pack=100 moq=200
+item WASHER-M6    annual=5200 cost=0.08 sd=15  lead=7  onhand=900  onorder=0   pack=100
+item NUT-M6       annual=2600 cost=0.12 sd=7   lead=10 onhand=90   onorder=500 pack=50
+item HINGE-SS-50  annual=420  cost=2.40 sd=1.5 lead=14 onhand=18   onorder=0   pack=10
+item SCREW-WOOD   annual=9100 cost=0.04 sd=30  lead=5  onhand=2100 onorder=0   pack=500 moq=1000
+item DRILL-BIT-6  annual=36   cost=6.95 sd=0.2 lead=21 onhand=4    onorder=0
+item SEALANT-300  annual=150  cost=4.20 sd=0.6 lead=28 onhand=0    onorder=12
+item PLUG-RAW     annual=0    cost=0.02 sd=0   lead=5  onhand=300  onorder=0   pack=100
